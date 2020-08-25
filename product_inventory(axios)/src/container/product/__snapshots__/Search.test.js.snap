@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches Search Snapshot 1`] = `
+<div
+  className="row"
+>
+  <div
+    className="col-lg-3 col-md-4 col-12"
+  >
+    <label
+      htmlFor="category"
+    >
+      <b>
+        Category
+      </b>
+    </label>
+      
+    <select
+      id="category"
+      name="category"
+      onChange={[Function]}
+    >
+      <option
+        value=""
+      >
+        All
+      </option>
+      <option
+        value="Machinery"
+      >
+        Machinery
+      </option>
+      <option
+        value="Seed/sapling"
+      >
+        Seed/Sapling
+      </option>
+      <option
+        value="Tools"
+      >
+        Tools
+      </option>
+    </select>
+      
+  </div>
+  <div
+    className="col-lg-9 col-md-8 col-12"
+  >
+    <input
+      className="searchbar"
+      name="productname"
+      onChange={[Function]}
+      placeholder="Search for Product using Name..."
+      type="text"
+    />
+  </div>
+</div>
+`;
